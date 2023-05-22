@@ -15,7 +15,7 @@ struct GridView: View {
     @State private var targetColumnIndices: [Int] = []
     
     private let grid = GridAlgorithm()
-    private let animationDuration: TimeInterval = 0.075
+    private let animationDuration: TimeInterval = 0.1
 
     // MARK: - BODY
     var body: some View {

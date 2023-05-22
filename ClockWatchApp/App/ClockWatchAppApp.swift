@@ -11,8 +11,6 @@ import SwiftUI
 struct ClockWatchAppApp: App {
     var body: some Scene {
         WindowGroup {
-//            Jamal()
-//            Exampleview()
             GridView()
         }
     }
