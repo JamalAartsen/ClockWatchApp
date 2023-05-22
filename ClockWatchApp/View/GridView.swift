@@ -24,11 +24,11 @@ struct GridView: View {
                 .ignoresSafeArea()
             
             VStack {
-                ForEach(0..<grid.array[0].count) { column in
+                ForEach(grid.array[0].indices, id: \.self) { column in
                     // HStack places content horizontally
                     HStack {
                         // Iterate over each row index
-                        ForEach(0..<grid.array.count) { row in
+                        ForEach(grid.array.indices, id: \.self) { row in
                             // Retrieve the number from the gridArray at the current row and column
                             let number = grid.array[row][column]
                             
