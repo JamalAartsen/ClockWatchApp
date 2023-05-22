@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C660E11E2A15267200E55B97 /* Exampleview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660E11D2A15267200E55B97 /* Exampleview.swift */; };
-		C660E1212A17AEAE00E55B97 /* Jamal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660E1202A17AEAE00E55B97 /* Jamal.swift */; };
 		C6B236BE2A14F5E100576C8F /* ClockWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B236BD2A14F5E100576C8F /* ClockWatchAppApp.swift */; };
 		C6B236C02A14F5E100576C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B236BF2A14F5E100576C8F /* ContentView.swift */; };
 		C6B236C22A14F5E200576C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B236C12A14F5E200576C8F /* Assets.xcassets */; };
@@ -20,8 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C660E11D2A15267200E55B97 /* Exampleview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exampleview.swift; sourceTree = "<group>"; };
-		C660E1202A17AEAE00E55B97 /* Jamal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jamal.swift; sourceTree = "<group>"; };
 		C6B236BA2A14F5E100576C8F /* ClockWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B236BD2A14F5E100576C8F /* ClockWatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockWatchAppApp.swift; sourceTree = "<group>"; };
 		C6B236BF2A14F5E100576C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,8 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				C6B236D52A14F70400576C8F /* GridView.swift */,
-				C660E11D2A15267200E55B97 /* Exampleview.swift */,
-				C660E1202A17AEAE00E55B97 /* Jamal.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,8 +184,6 @@
 				C6B236CF2A14F69A00576C8F /* ClockTimer.swift in Sources */,
 				C6B236C02A14F5E100576C8F /* ContentView.swift in Sources */,
 				C6B236BE2A14F5E100576C8F /* ClockWatchAppApp.swift in Sources */,
-				C660E1212A17AEAE00E55B97 /* Jamal.swift in Sources */,
-				C660E11E2A15267200E55B97 /* Exampleview.swift in Sources */,
 				C6B236CD2A14F66C00576C8F /* GridAlgorithm.swift in Sources */,
 				C6B236D62A14F70400576C8F /* GridView.swift in Sources */,
 				C6B236D32A14F6CB00576C8F /* Int+Extensions.swift in Sources */,
